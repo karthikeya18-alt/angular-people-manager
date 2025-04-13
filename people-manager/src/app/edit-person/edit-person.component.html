@@ -1,0 +1,8 @@
+<div>
+    <h2>Edit Person</h2>
+    <form>
+        <label>Name: <input [(ngModel)]="person.name" name="name" /></label><br />
+        <label>Email: <input [(ngModel)]="person.email" name="email" /></label><br />
+        <button type="button" (click)="saveChanges()">Save</button>
+    </form>
+</div>

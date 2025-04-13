@@ -1,0 +1,15 @@
+<div>
+    <h2>Add New Person</h2>
+    <form>
+        <label>
+            Name: 
+            <input [(ngModel)]="person.name" name="name" required />
+        </label><br />
+        <label>
+            Email: 
+            <input [(ngModel)]="person.email" name="email" required />
+        </label><br />
+        <!-- Disable the button if either name or email is empty -->
+        <button type="button" [disabled]="!person.name || !person.email" (click)="addPerson()">Add</button>
+    </form>
+</div>

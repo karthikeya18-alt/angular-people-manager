@@ -1,0 +1,24 @@
+/* Container Styling */
+div {
+  background: linear-gradient(to right, #ffffff, #ffebee);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Header Styling */
+h2 {
+  text-align: center;
+  color: #e53935;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+/* Paragraph Styling */
+p {
+  color: #e53935;
+  font-size: 1.2rem;
+  text-align: center;
+}

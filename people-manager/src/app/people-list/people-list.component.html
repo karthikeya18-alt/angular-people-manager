@@ -1,0 +1,11 @@
+<div>
+    <h2>People List</h2>
+    <button (click)="navigateToAdd()">Add New Person</button>
+    <ul>
+      <li *ngFor="let person of people">
+        {{ person.name }} - {{ person.email }}
+        <button (click)="navigateToEdit(person.id)">Edit</button>
+        <button (click)="deletePerson(person.id)">Delete</button>
+      </li>
+    </ul>
+  </div>

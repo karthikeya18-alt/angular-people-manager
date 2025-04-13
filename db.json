@@ -1,0 +1,24 @@
+{
+  "people": [
+    {
+      "id": "1",
+      "name": "Allii express",
+      "email": "alice@example.com"
+    },
+    {
+      "id": "2",
+      "name": "Bob",
+      "email": "bob@example.com"
+    },
+    {
+      "id": "d0f7",
+      "name": "Somasekhara Karthikeya Kattekola",
+      "email": "karthikeya18062005@gmail.com"
+    },
+    {
+      "id": "d59b",
+      "name": "Somasekhara Karthikeya Kattekola",
+      "email": "karthikeya18062005@gmail.com"
+    }
+  ]
+}
